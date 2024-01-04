@@ -1,6 +1,8 @@
 import React from "react";
 
 import "/src/css/about.css";
+import { getImageUrl } from "../utils";
+
 
 function About () {
   return (

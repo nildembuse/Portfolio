@@ -1,6 +1,8 @@
 import React from "react";
 
 import  "/src/css/contact.css";
+import { getImageUrl } from "../utils";
+
 
 function  Contact() {
   return (
