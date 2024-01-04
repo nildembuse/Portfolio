@@ -1,15 +1,15 @@
 import React from "react";
 
-import styles from "./App.css";
+import  "./App.css";
 
 import projects from "../../data/projects.json";
 import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
   return (
-    <section className={styles.container} id="projects">
-      <h2 className={styles.title}>Projects</h2>
-      <div className={styles.projects}>
+    <section className="container" id="projects">
+      <h2 className="title">Projects</h2>
+      <div className="projects">
         {projects.map((project, id) => {
           return <ProjectCard key={id} project={project} />;
         })}
