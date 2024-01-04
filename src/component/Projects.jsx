@@ -2,10 +2,10 @@ import React from "react";
 
 import  "./App.css";
 
-import projects from "../../data/projects.json";
-import { ProjectCard } from "./ProjectCard";
+import projects from "../data/projects.json";
 
-export const Projects = () => {
+
+function Projects() {
   return (
     <section className="container" id="projects">
       <h2 className="title">Projects</h2>
@@ -15,5 +15,7 @@ export const Projects = () => {
         })}
       </div>
     </section>
-  );
-};
+  )
+}
+export default Projects
+
