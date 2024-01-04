@@ -1,7 +1,5 @@
 import React from "react";
 
-import  "./App.css";
-
 import projects from "../data/projects.json";
 
 
