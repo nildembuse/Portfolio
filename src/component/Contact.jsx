@@ -1,28 +1,28 @@
 import React from "react";
 
 import  "/src/css/contact.css";
-import { getImageUrl } from "../utils";
+
 
 
 function  Contact() {
   return (
     <footer id="contact" className="container">
       <div className=".text">
-        <h2>Contact</h2>
-        <p>Feel free to reach out!</p>
+        <h2>İletişim</h2>
+        <p>Bana ulaşmaktan çekinmeyin.</p>
       </div>
       <ul className="links">
         <li className="link">
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:myemail@email.com">myemail@email.com</a>
+          <img src="/src/assets/contact/emailIcon.png" alt="Gmail icon" />
+          <a href="gmail:nildembuse@gmail.com">nildembuse@gmail.com</a>
         </li>
         <li className="link">
-          <img src={getImageUrl("contact/linkedinIcon.png")} alt="LinkedIn icon"/>
-          <a href="https://www.linkedin.com/myname">linkedin.com/myname</a>
+          <img src="/src/assets/contact/linkedinIcon.png" alt="LinkedIn icon"/>
+          <a href="https://www.linkedin.com/in/nildem-buse-ertürk-79b7231a4/">linkedin.com/nildembuseertürk</a>
         </li>
         <li className="link">
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://www.github.com/myname">github.com/myname</a>
+          <img src="/src/assets/contact/githubIcon.png" alt="Github icon" />
+          <a href="https://github.com/nildembuse">github.com/nildembuse</a>
         </li>
       </ul>
     </footer>

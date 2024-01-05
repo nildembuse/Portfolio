@@ -1,7 +1,7 @@
 import React from "react";
 
 import "/src/css/about.css";
-import { getImageUrl } from "../utils";
+
 
 
 function About () {
@@ -9,22 +9,21 @@ function About () {
     <section className="container" id="about">
       <h2 className="title">About</h2>
       <div className="content">
-        <img src={getImageUrl("about/aboutImage.png")} alt="Me sitting with a laptop" className="aboutImage"/>
+        <img src="/src/assets/about/aboutImage.png" alt="Me sitting with a laptop" className="aboutImage"/>
         <ul className="aboutItems">
           <li className="aboutItem">
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            <img src="/src/assets/about/cursorIcon.png"alt="Cursor icon" />
             <div className="aboutItemText">
               <h3>Frontend Developer</h3>
-              <p> I'm a frontend developer with experience in building responsive and optimized sites</p>
+              <p> Duyarlı ve optimize edilmiş siteler oluşturma konusunda deneyime sahip bir Junior Frontend Developer.</p>
             </div>
           </li>
           
           <li className="aboutItem">
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <img src="/src/assets/about/cursorIcon.png" alt="UI icon" />
             <div className="aboutItemText">
               <h3>UI Designer</h3>
-              <p>I have designed multiple landing pages and have created design systems as well
-              </p>
+              <p> Eğitimim boyunca birden fazla web tasarımı yaptım.</p>
             </div>
           </li>
         </ul>

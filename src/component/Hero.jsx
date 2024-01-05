@@ -8,7 +8,8 @@ function Hero() {
         <h1 className="title">Merhaba</h1>
         <p className="description">
           Junior Frontend Developer. <br />
-          9 aydır bu mesleğin içindeyim <br /> kendimi geliştiriyorum.
+          9 aydır bu mesleğin içindeyim <br /> kendimi geliştiriyorum. <br />
+          Aşağıdaki butondan bana mail atıp iletişime geçebilirsin.
         </p>
         <a href="mailto:myemail@email.com" className="contactBtn">
           Contact Me
